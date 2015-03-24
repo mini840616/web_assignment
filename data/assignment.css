@@ -1,0 +1,129 @@
+article#course{
+  max-width:800px;
+  padding:2em 0em 2em 3em;
+  background: url(http://subtlepatterns.com/patterns/school.png)top center ;
+ 
+  border-radius:3em;
+  font-family: 'Special Elite', cursive;
+
+ 
+}
+
+
+
+.meta{
+  margin-top:1em;
+}
+
+.meta span{
+  margin-right:2em;
+}
+
+
+#course h1{
+	
+  font-size:2.5em;
+	color:#8B4513;
+  border-bottom:2px solid;
+  padding:0em 0em 0.5em 0em;
+  text-shadow: 15px 10px 30px #FF3333;
+
+}
+
+
+
+.girl{
+  width:5%;
+  padding:0em;
+}
+
+.name-pic{
+  width:5%;
+  padding:1em 1em 0em 0em;
+  float:left;
+}
+
+.course-pic-analysis,
+.course-pic-teaching{
+box-shadow: 3px 3px 10px 1px #524C3C;
+}
+
+.course-overview{
+  padding-left:3em;
+}
+
+.more-information h3,
+.class-schedule h3,
+.course-analysis h2{
+  font-size:1.3em;
+  border-bottom:1px solid;
+}
+
+.course-analysis h2{
+  padding-top:3em; 
+}
+
+.overview-name{
+  background-color:rgba(240,182,169,0.5);
+}
+
+table,td{
+  margin: 50px auto;
+  background: #ccc;
+}
+
+table, td.schedule-week{
+background-color:rgba(255,255,255,0.3);
+border-radius:1em;
+}
+
+table,td.schedule-unit{
+  background-color:rgba(234,155,121,0.5);
+  border-radius: 0.5em;
+}
+
+.course-requirements>span{
+  border-bottom:2px solid;
+}
+
+.course-requirements>ol{
+  background-color: rgba(240,182,169,0.5);
+}
+
+.hightlight{
+  color:red;
+}
+
+
+a:link{
+  text-decoration: none;
+  color: blue;
+}
+ a:visited{
+  color: #660077;
+}
+ a:hover{
+  text-decoration: underline;
+  color:#FF8800;
+  font-size:1.5em;
+}
+ a:active{
+  color: #5599FF;
+}
+
+
+
+.container{
+  padding:3em 0em 5em 10em;
+  font-family: 'Special Elite', cursive;
+  font-size:1.5em;
+  border-radius:2em;
+  background:url(http://subtlepatterns.com/patterns/purty_wood.png)top center;  
+  
+}  
+
+
+div.form-group {
+  background-color:white;
+}
+  
