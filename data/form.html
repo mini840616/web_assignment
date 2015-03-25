@@ -12,39 +12,39 @@
       <form class="form-bridge">
       
         <div class="form-group">
-          <label for="first_last">Your name?</label>
-          <input type="text" class="form-control" id="first_last" placeholder="First Last" required autofocus autocomplete="on">
+          <label for="chinese name">Your name?</label>
+          <input type="text" class="form-control" id="chinese name" placeholder="chinese name" required autofocus autocomplete="on">
           <span class="help-block"></span>
         </div>
         
         <div class="form-group">
-          <label for="email_addr">what is your gender?</label>
-          <input type="email" class="form-control" id="email_addr" placeholder="Email address" required>
+          <label for="gender">what is your gender?</label>
+          <input type="text" class="form-control" id="gender" placeholder="male/female" required autofocus autocomplete="on">
           <span class="help-block"></span>
         </div>
 
          <div class="form-group">
-          <label for="dob">birthday?</label>
-          <input type="date" class="form-control" id="dob">
+          <label for="birthday">birthday?</label>
+          <input type="date" class="form-control" id="birthday">
           <span class="help-block"></span>
         </div>
 
-        <div>
-          <label>which form of transport do you use?</label>
+        <div class="form-group">
+          <label class="lable">which form of transport do you use?</label>
           <p>
-            <input type="checkbox" value="c0"> walking<br>
-            <input type="checkbox" value="c1"> bike<br>
-            <input type="checkbox" value="c1"> motorcycle<br>
-            <input type="checkbox" value="c1"> car<br>
-            <input type="checkbox" value="c1"> bus<br>
-            <input type="checkbox" value="c1"> metro<br>
-            <input type="checkbox" value="c1"> train<br>
-            <input type="checkbox" value="c1"> airplane<br>
+            <input  type="checkbox" value="c0"> walking<br>
+            <input  type="checkbox" value="c1"> bike<br>
+            <input  type="checkbox" value="c1"> motorcycle<br>
+            <input  type="checkbox" value="c1"> car<br>
+            <input  type="checkbox" value="c1"> bus<br>
+            <input  type="checkbox" value="c1"> metro<br>
+            <input  type="checkbox" value="c1"> train<br>
+            <input  type="checkbox" value="c1"> airplane<br>
           </p>
         </div>  
         
-        <div>
-          <label>what is the highest level of education you have completed?</label>
+        <div class="form-group">
+          <label class="label">what is the highest level of education you have completed?</label>
           <p>
            <input type="radio" name="foo" value="d0"> less than high school<br>
            <input type="radio" name="foo" value="d1"> high school or equivalent</br>
@@ -59,10 +59,10 @@
         </div> 
 
         <div class="form-group">
-          <label for="chocolate">which industry do you work in or are most involved with?</label>
-          <input type="text" class="form-control" id="chocolate" list="chocType">
+          <label for="industry_invovled">which industry do you work in or are most involved with?</label>
+          <input type="text" class="form-control" id="industry_invovled" list="industryType" >
           <span class="help-block"></span>
-          <datalist id="chocType">
+          <datalist id="industryType">
             <option value="writing and editing" />
             <option value="animation" />
             <option value="photography" />
@@ -74,26 +74,26 @@
         </div> 
 
         <div class="form-group">
-          <label for="fav_pizza">your phone?</label>
-          <input type="tel" class="form-control" id="fav_pizza" >
+          <label for="phone">your phone?</label>
+          <input type="tel" class="form-control" placeholder="cellphone" id="phone" >
           <span class="help-block"></span>
         </div>
 
         <div class="form-group">
-          <label for="email_addr_confirm">email address</label>
-          <input type="email" class="form-control" id="email_addr_confirm"  required autocomplete="off">
+          <label for="email">email address</label>
+          <input type="email" class="form-control" id="email" placeholder="email" required autocomplete="on">
           <span class="help-block"></span>
         </div>
 
         <div class="form-group">
-          <label for="fav_website">personal website?</label>
-          <input type="url" class="form-control" id="fav_website"  required>
+          <label for="personal_website">personal website?</label>
+          <input type="url" class="form-control" id="personal_website" placeholder="personal website" required>
           <span class="help-block"></span>
         </div>
         
     
         
-        <button class="btn btn-lg btn-primary btn-block" type="submit">i'm done</button>
+        <button class="button" type="submit">i'm done</button>
       </form>
 
     </div> <!-- /container -->
